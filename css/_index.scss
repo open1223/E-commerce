@@ -1,0 +1,135 @@
+.logo, h1{
+    color: white;
+}
+@media (min-width: 768px){
+    .md-black,h1{
+        color: #121212;
+    }
+}
+
+.bannerText{
+    padding-top: 128px;
+    padding-bottom: 24px;
+    h1{
+        line-height: 64px;
+    }
+    h6{
+        line-height: 24px;
+        margin-bottom: 108px;
+    }
+}
+@media (min-width: 768px){
+    .bannerText{
+    padding-top: 159px;
+    padding-bottom: 236px;
+        h6{
+            color: #0000009A;
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+}
+
+
+.bannerImg{
+    background: url(../img/index-1.jpg) center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    z-index: -1;
+    margin-top: -69px;
+    top: 0;
+    right: 0;
+}
+@media (min-width: 768px){
+    .bannerImg{
+        height: 800px;
+    }
+}
+@media (max-width: 576px){
+    .introduction{
+        img{
+            margin-bottom: 16px;
+        }
+    }
+}
+
+.artDirector{
+    background: url(../img/index-5.jpg) center center no-repeat;
+    background-size: cover;
+    .row{
+        height: 400px;
+    }
+    h2{
+        line-height: 48px;
+    }
+}
+
+.onSale{
+    top: 16px;
+    right: 16px;
+    font-size: 14px;
+}
+
+.product{
+    cursor: pointer;
+    overflow-x: hidden;
+}
+
+.product-item img{
+    height: 240px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px){
+    .product-item img{
+        height: 350px;
+    }
+}
+
+// footer
+.subscribe{
+    background: url(../img/footer.jpg) center center no-repeat;
+    background-size: cover;
+    form input[type='email'] {
+        padding: 19px 0 18px 16px;
+        height: auto;
+        border-color: #ffffff99;
+        color: #ffffff99;
+    }
+    form input[type='submit'] {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding: 18px 24px;
+    }
+}
+@media (min-width: 768px){
+    .subscribe{
+        .row{
+            height: 100vh;
+        }
+        form input[type='submit'] {
+            padding: 20px 44px 17px 44px;
+        }
+    }
+}
+
+.footerTitle{
+    font-size: 32px;
+    line-height: 48px;
+}
+@media (min-width: 768px){
+    .footerTitle{
+        font-size: 48px;
+        line-height: 64px;
+    }
+}
+
+.footerList{
+    background-color: #121212;
+}
+
+.statement li{
+    color: #FFFFFFDE;
+}
